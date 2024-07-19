@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <h1>CRUD APPLICATION</h1>
+    <form id="form">
+        <input placeholder="Name" id="name" required/>
+        <input placeholder="Email" id="email" required/>
+        <input placeholder="Contact No" id="contact" required/>
+        <input placeholder="Address" id="address" required/>
+        <button type="submit" id="save-btn">Save</button>
+    </form>
+
+    <table id="detailsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Address</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="detailsList">
+            
+        </tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>

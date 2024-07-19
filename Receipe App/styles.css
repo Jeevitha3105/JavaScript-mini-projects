@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 50px;
+    background-color: #141414;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 10px;
+}
+.search-input{
+    width: 300px;
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.search-input::placeholder{
+    font-size: 1.1rem;
+    color: gray;
+}
+.search-button{
+    padding: 13px 15px; 
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: gray;
+}
+
+.main{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    width: 280px;
+    border: 1px solid #2d4c50;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 10px;
+    height: 380px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 30px rgba(253, 253, 253, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover img{
+    transform: scale(0.95);
+    transition: 0.5s all ease-in-out;
+}
+
+.card img{
+    width:100%;
+    height:130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card h2{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.card button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}

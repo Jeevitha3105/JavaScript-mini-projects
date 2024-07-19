@@ -1,0 +1,62 @@
+html,
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 20px 0;
+}
+.wrapper h1,p{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    gap: 25px;
+}
+
+.form input,button{
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+#register-btn{
+    background-color: white;
+    cursor: pointer;
+}
+#login-btn{
+    background-color: white;
+    cursor: pointer;
+}
+#login{
+    color: red;
+    cursor: pointer;
+}
+.showError{
+    border: 2px solid red;
+}
+.showError::placeholder{
+    color: red;
+}
+
+#success{
+    text-align: center;
+    color: green;
+}
