@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: mediumslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 350px;
+    background-color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main h3{
+    font-size: medium;
+}
+
+#input-box{
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+.select-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-div select{
+    width: 40%;
+    padding: 10px 20px;
+    background-color: mediumslateblue;
+}
+
+#convert-btn{
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: mediumslateblue;
+    border: none;
+    outline: none;
+}
+
+.main #result{
+    padding: 15px 20px;
+    text-align: center;
+    background-color: rgb(234, 220, 246);
+}
