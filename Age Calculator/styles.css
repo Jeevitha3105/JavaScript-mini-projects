@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 500px;
+    gap: 20px;
+}
+
+.main input{
+    padding: 10px 5px;
+    width: 250px;
+}
+
+.main button{
+    padding: 10px 5px;
+    width: 260px;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+}
+
+.main h3{
+    font-size: 1.3rem;
+}
+
+.main p{
+    font-size: 1rem;
+    font-weight: bold;
+}

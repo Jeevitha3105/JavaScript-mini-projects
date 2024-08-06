@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.mouse-event{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 180px;
+    min-height: 100px;
+    border: 2px dotted lightgrey;
+    position: relative;
+    color: white;
+}
+
+.mouse-event h4 {
+    position: absolute;
+    top: -50px;
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: 100;
+    color: white;
+  }

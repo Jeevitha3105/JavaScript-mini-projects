@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 500px;
+    padding: 20px;
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: gray;
+}
+
+#total{
+    color: green;
+}
+
+#remaining{
+    color: red;
+}

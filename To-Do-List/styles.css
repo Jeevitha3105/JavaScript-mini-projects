@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.main{
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1{
+    margin-bottom: 30px;
+}
+
+.main input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.list-items{
+    width: 320px;
+    padding: 0;
+    margin: 0;
+}
+
+.list-items li {
+    list-style-type: none;
+    padding: 10px 0; 
+    border-bottom: 1px solid darkgray;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-text {
+    flex: 1;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .fas {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icons .fa-trash-alt {
+    color: red;
+}
+
+.icons .fa-edit {
+    color: green;
+}

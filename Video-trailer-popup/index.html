@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Trailer Popup</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
+
+</head>
+<body>
+   <div class="main">
+    <div class="img-div">
+        <img src="./assets/elemental.jpg"/>
+    </div>
+    <div class="text-div">
+        <h2>Elemental</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste necessitatibus porro explicabo illo dolorum dolores cupiditate non modi quasi nobis, earum ab, autem esse vero sapiente minus vel! Provident?</p>
+        <button id="btn">Watch now</button>
+    </div>
+   </div>
+   <div class="video-div">      <!--active-->
+    <video width="640" height="360" controls class="video">
+        <source src="./assets/videoplayback.mp4" type="video/mp4">
+    </video>
+    <div class="close"><i class="fas fa-times"></i></div>
+</div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

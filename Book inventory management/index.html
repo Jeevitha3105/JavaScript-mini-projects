@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory Management</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+    <div class="container">
+        <h1>Book Inventory Management</h1>
+        
+        <!-- Form for adding a new book -->
+        <form id="addBookForm" class="form">
+            <h2>Add New Book</h2>
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="year" placeholder="Year" required>
+            <input type="text" id="isbn" placeholder="ISBN" required>
+            <button type="submit">Add Book</button>
+        </form>
+
+        <!-- Form for updating an existing book -->
+        <form id="updateBookForm" class="form">
+            <h2>Update Book</h2>
+            <input type="text" id="updateIsbn" placeholder="ISBN to Update" required>
+            <input type="text" id="updateTitle" placeholder="New Title">
+            <input type="text" id="updateAuthor" placeholder="New Author">
+            <input type="text" id="updateYear" placeholder="New Year">
+            <button type="submit">Update Book</button>
+        </form>
+
+        <!-- Form for deleting a book -->
+        <form id="deleteBookForm" class="form">
+            <h2>Delete Book</h2>
+            <input type="text" id="deleteIsbn" placeholder="ISBN to Delete" required>
+            <button type="submit">Delete Book</button>
+        </form>
+
+        <!-- Display section for showing all books -->
+        <div id="displayBooks">
+            <h2>Books Inventory</h2>
+            <table id="booksTable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Year</th>
+                        <th>ISBN</th>
+                        <th>Actions</th> 
+                    </tr>
+                </thead>
+                <tbody id="booksList">
+                    <!-- Book items will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link your JavaScript file here -->
+</body>
+</html>

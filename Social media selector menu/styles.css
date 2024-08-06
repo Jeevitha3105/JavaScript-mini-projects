@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.display-box{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list{
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+}
+
+.list.show{
+    display: block;
+}
+
+.box, .input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.box i{
+    font-size: 1.1rem;
+    width: 10%;
+}
+
+#facebook{
+    color: blue;
+}
+#youtube{
+    color: red;
+}
+#twitter{
+    color: blue;
+}
+#linkedin{
+    color: blue;
+}
+
+.arrow{
+    transition: transform 0.5s ease;
+}
+
+.arrow.show{
+    transform: rotate(180deg);
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+}
+.main h1{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.main input, .main button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: forestgreen;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#result{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 15px 0;
+}

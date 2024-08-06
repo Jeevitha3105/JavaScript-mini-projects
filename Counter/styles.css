@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+p{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.btns button{
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#add{
+    background-color: green;
+}
+
+#subtract{
+    background-color: red;
+}
+
+#reset{
+    background-color: grey;
+}

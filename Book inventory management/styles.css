@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form input[type="text"], .form button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+#displayBooks {
+    margin-top: 20px;
+}
+
+#booksTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#booksTable th, #booksTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#booksTable th {
+    background-color: #f2f2f2;
+}
+
+#booksTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.editBtn, .deleteBtn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.editBtn:hover, .deleteBtn:hover {
+    background-color: #45a049;
+}
+

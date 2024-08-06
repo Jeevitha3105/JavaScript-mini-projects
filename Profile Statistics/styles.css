@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: 2px dotted black;
+}
+
+.item i{
+    margin-top: -30px;
+    font-size: 3rem;
+}
+
+.item h1{
+    margin: 20px 0;
+    font-size: 4rem;
+}
+
+.item p{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}

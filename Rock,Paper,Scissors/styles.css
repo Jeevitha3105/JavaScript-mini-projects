@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 500px;
+    gap: 30px;
+}
+.main h1{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    width: 100px;
+    padding: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.main p{
+    font-weight: 700;
+}
+
+span{
+    color: green;
+}
+
+#result{
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+}
