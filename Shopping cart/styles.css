@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.cart img {
+    width: 100%;
+    height: auto;
+}
+
+.cart h4 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.cart p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.cart button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background-color: #0056b3;
+}
+
+.cart-page {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.cart-page.open {
+    left: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.cart-item img {
+    width: 80px;
+    height: auto;
+}
+
+.cart-item h4 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.cart-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btns{
+    display: flex;
+    gap: 5px;
+}
+
+.cart-item button:hover {
+    background-color: #0056b3;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}
+
+#cart-icon{
+    cursor: pointer;
+}

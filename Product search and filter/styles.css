@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin: 20px 0;
+}
+
+.container input{
+    padding: 10px 8px;
+    background-color: whitesmoke;
+    width: 250px;
+    outline: none;
+    margin-top: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+}
+
+.container button{
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.filter{
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.filter > div{
+    padding: 10px 15px;
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+}
+
+.filter > div.active{
+    background-color: blueviolet;
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+    gap: 20px;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product .p-details{
+    padding-left: 15px;
+}
+.product .p-details h2{
+    font-size: 20px;
+    color: #1d1d1d;
+}
+
+.product .p-details h3{
+    font-size: 18px;
+}
+
