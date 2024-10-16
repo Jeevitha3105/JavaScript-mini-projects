@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+section{
+    height: 100vh;
+    background-attachment: fixed;                         /*this property gives the effect of the background image staying fixed in place while the content scrolls over it.*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(1){
+    background-image: url('./images/img-1.jpg');
+}
+
+section:nth-child(2){
+    background-image: url('./images/img-4.jpeg');
+}
+
+section:nth-child(3){
+    background-image: url('./images/img-5.jpeg');
+}
+
+.title{
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
